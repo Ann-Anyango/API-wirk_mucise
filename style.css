@@ -1,0 +1,182 @@
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 70px;
+}
+
+#get {
+  color: yellow;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#gad {
+  font-size: 25px;
+}
+
+#signup {
+  background-color: yellow;
+  font-size: 25px;
+}
+
+#detels {
+  display: flex;
+  gap: 10rem;
+  margin-top: 10rem;
+  background-color: #8C31F5;
+}
+
+#vidie {
+  height: 30rem;
+  margin-right: 60px;
+}
+
+#oreder {
+  font-size: 20px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+#more {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: gray;
+}
+
+#truest {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
+}
+
+#cio {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 5%;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10%;
+}
+
+#camm {
+  width: 40rem;
+  height: 25rem;
+}
+
+#Sorr {
+  display: flex;
+  background-color: #a764f3;
+}
+
+.off {
+  color: yellow;
+}
+
+#testimoni {
+  text-align: center;
+}
+
+#alique {
+  display: flex;
+  gap: 40px;
+}
+
+#hum {
+  border-radius: 40px;
+}
+
+#ssubstib {
+  background-color: ghostwhite;
+}
+
+#containet {
+  border-radius: 21px;
+  padding: 6%;
+  width: 80%;
+  background-color: yellow;
+}
+
+#ssubstib {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12%;
+}
+
+#footer {
+  margin-top: 1em;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+}
+
+ul {
+  list-style: none;
+}
+
+#dag {
+  color: yellow;
+}
+
+#dags {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#mobl {
+  height: 32%;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .navbar a {
+    margin-right: 30px;
+  }
+
+  #detels {
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+
+  #vidie {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #truest {
+    font-size: 50px;
+  }
+
+  #cio {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+  }
+
+  #products {
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+
+  #camm {
+    width: 100%;
+    height: auto;
+  }
+
+  #containet {
+    width: 100px;
+  }
